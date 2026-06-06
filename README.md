@@ -32,3 +32,26 @@ AURA CORE
 ANEES DETEX JALEES AXEL WANEES
    ↓
 Physical World (Robots / Systems)
+
+## System Architecture (Advanced View)
+
+```mermaid
+graph TD
+
+CORE[AURA CORE<br/>Cognitive Orchestrator]
+
+CORE --> PERCEPTION[Perception Layer]
+CORE --> COORD[Coordination Layer]
+CORE --> SAFETY[Safety Layer]
+
+PERCEPTION --> ANEES[ANEES<br/>Healthcare Intelligence]
+PERCEPTION --> DETEX[DETEX<br/>Security & Analysis]
+PERCEPTION --> JALEES[JALEES<br/>Human Interaction]
+PERCEPTION --> AXEL[AXEL<br/>System Control]
+
+ANEES --> WANEES[WANEES<br/>Adaptive Intelligence Layer]
+DETEX --> WANEES
+JALEES --> WANEES
+AXEL --> WANEES
+
+WANEES --> PHYSICAL[Physical World<br/>Robots • Smart Environments • Infrastructure]
