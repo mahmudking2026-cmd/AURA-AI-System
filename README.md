@@ -20,3 +20,15 @@ Early-stage conceptual architecture (no implementation yet)
 
 ## Goal
 To explore scalable multi-agent intelligence systems for future robotics and AI ecosystems.
+
+## System Diagram
+
+AURA AI Structure:
+
+AURA CORE
+   ↓
+--------------------------------
+|   |   |   |   |
+ANEES DETEX JALEES AXEL WANEES
+   ↓
+Physical World (Robots / Systems)
